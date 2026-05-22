@@ -1,0 +1,14 @@
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\bin\Debug\net10.0\CustomerPaidInvoiceApp.exe
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\bin\Debug\net10.0\CustomerPaidInvoiceApp.deps.json
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\bin\Debug\net10.0\CustomerPaidInvoiceApp.runtimeconfig.json
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\bin\Debug\net10.0\CustomerPaidInvoiceApp.dll
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\bin\Debug\net10.0\CustomerPaidInvoiceApp.pdb
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\CustomerPaidInvoiceApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\CustomerPaidInvoiceApp.AssemblyInfoInputs.cache
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\CustomerPaidInvoiceApp.AssemblyInfo.cs
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\CustomerPaidInvoiceApp.csproj.CoreCompileInputs.cache
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\CustomerPaidInvoiceApp.dll
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\refint\CustomerPaidInvoiceApp.dll
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\CustomerPaidInvoiceApp.pdb
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\CustomerPaidInvoiceApp.genruntimeconfig.cache
+C:\dev\CSharp-Projects\Investec-Interview\SessionTwo\CustomerPaidInvoiceApp\obj\Debug\net10.0\ref\CustomerPaidInvoiceApp.dll
