@@ -1,5 +1,6 @@
 
 using BenchmarkDotNet.Attributes;
+using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 namespace CustomerPaidInvoiceApp.SessionTwo;
@@ -96,6 +97,36 @@ public class PostalGroupingBenchmark
         var result = new List<object>(dict.Count);
         foreach (var item in dict)
             result.Add(new { item.Key, Avg = item.Value.total / item.Value.count });
+
+        Consume(result);
+    }
+
+    [Benchmark(Description = "Parallel.ForEach + ConcurrentDictionary")]
+    public void UsingParallel_Concurrent()
+    {
+        ConcurrentBag<PropertyPrices> bag = new();
+        Parallel.ForEach(_data, prop =>
+        {
+            bag.Add(prop);
+        });
+
+        ConcurrentDictionary<string, (double totalAmount, int count)> postalGroups = new();
+
+        Parallel.ForEach(bag, prop =>
+        {
+            postalGroups.AddOrUpdate(
+                prop.PostalCode,
+                (prop.Amount, 1),
+                (key, existing) => (existing.totalAmount + prop.Amount, existing.count + 1)
+            );
+        });
+
+        // Materialize result
+        var result = postalGroups.Select(kvp => new
+        {
+            kvp.Key,
+            Avg = kvp.Value.totalAmount / kvp.Value.count
+        }).ToList();
 
         Consume(result);
     }
